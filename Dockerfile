@@ -11,9 +11,9 @@ COPY style.css /usr/share/nginx/html/
 EXPOSE 80
 
 # Verify file permissions
-RUN chmod 644 /usr/share/nginx/html/finally.html && \
-    chmod 644 /usr/share/nginx/html/yes.html && \
-    chmod 644 /usr/share/nginx/html/nextpage.html && \
+RUN chmod 644 /usr/share/nginx/html/ultimately.html && \
+    chmod 644 /usr/share/nginx/html/onlyYes.html && \
+    chmod 644 /usr/share/nginx/html/fixdate.html && \
     chmod 644 /usr/share/nginx/html/style.css
 
 # Start Nginx when the container launches
