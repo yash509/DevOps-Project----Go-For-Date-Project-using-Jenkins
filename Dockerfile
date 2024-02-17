@@ -3,7 +3,7 @@ FROM nginx:latest
 
 # Copy the HTML files to the Nginx default html directory
 COPY ultimately.html /usr/share/nginx/html/
-COPY yes.html /usr/share/nginx/html/
+COPY onlyYes.html /usr/share/nginx/html/
 COPY fixdate.html /usr/share/nginx/html/
 COPY style.css /usr/share/nginx/html/
 
